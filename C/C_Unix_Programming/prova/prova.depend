@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1340710264 source:/home/molo/progettiC/PROGETTISO/prova/main.c
+	<stdio.h>
+	<unistd.h>
+	<stdlib.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<string.h>
+	<errno.h>
+	<dirent.h>
+

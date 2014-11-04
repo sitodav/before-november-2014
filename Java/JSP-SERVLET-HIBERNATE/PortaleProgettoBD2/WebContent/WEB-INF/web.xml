@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+  <!-- dichiarazione e mapping della servlet ValidatriceLogin -->
+  <servlet>
+  	<servlet-name>validat</servlet-name>
+  	<servlet-class>servlets.ValidatriceLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>validat</servlet-name>
+  	<url-pattern>/validatore</url-pattern> <!-- questo è l'url su cui è mappata la servlet (e con cui è richiamabile) -->
+  </servlet-mapping>
+  <!-- FINE dichiarazione e mapping della servlet ValidatriceLogin -->
+  
+  <!-- mapping del filtro che controlla che chi ha accesso alla cartella protected, sia prima loggato per la home -->
+  <filter>
+  	<filter-name>logfilter</filter-name>
+  	<filter-class>filtri.FiltroControlloLogged</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>logfilter</filter-name>
+  	<url-pattern>/protected/*</url-pattern>
+  </filter-mapping>
+  
+  <!-- FINE mapping filtro che controlla la cartella protected -->
+ 
+ 
+  <!-- mapping del filtro per il nocaching-->
+  <filter>
+  	<filter-name>nocachefilter</filter-name>
+  	<filter-class>filtri.FiltroNoCaching</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>nocachefilter</filter-name>
+  	<url-pattern>/*</url-pattern> <!-- /* indica qualunque pagina della web app -->
+  </filter-mapping>
+  
+  <!-- FINE mapping filtro che controlla la cartella protected -->
+ 
+ 
+ 
+ 
+ 
+  <display-name>PortaleProgettoBD2</display-name>
+  
+  <!-- definizione pagina principale -->
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- fine definizione pagina principale -->
+  
+</web-app>

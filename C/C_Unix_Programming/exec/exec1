@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc,char *argv[]){ //il primo parametro che passiamo da linea di comando a questo programma, diventa il nome del programma da eseguire con la exec, e quello che gli passiamo dopo, diventano i parametri passati al nuovo programma da eseguire
+execv(argv[1],&argv[1]); //argv[1] e' il nome del prog da eseguire e gli passiamo l'array dei nostri parametri, pero' dal primo in poi, quindi quelli diventeranno il suo array di parametri
+printf("\nExec non andata a buon fine");
+return 0;
+
+
+
+}

@@ -1,0 +1,36 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sysÙ:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+manÙ:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/binÙ/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:Ùproxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/biÙn/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnatÙs:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonÙexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/falÙse
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:108:Avahi autoip daemon,,,:/vaÙr/lib/avahi-autoipd:/bin/false
+avahi:x:104:109:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/falseÙ
+couchdb:x:105:113:CouchDB Administrator,,,:/var/lib/couchdb:/bin/bash
+usbmux:x:106:46:usbmux daemonÙ,,,:/home/usbmux:/bin/false
+speech-dispatcher:x:107:29:Speech Dispatcher,,,:/var/run/speech-dispatchÙer:/bin/sh
+kernoops:x:108:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:109:114:PulseAudÙio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:110:117:RealtimeKit,,,:/proc:/bin/false
+saned:x:111:1Ù18::/home/saned:/bin/false
+hplip:x:112:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+gdm:x:113:12Ù0:Gnome Display Manager:/var/lib/gdm:/bin/false
+molo:x:1000:1000:molo,,,:/home/molo:/bin/bash
+haldaeÙmon:x:114:123:Hardware abstraction layer,,,:/var/run/hald:/bin/false
+,,,:/home/molo:/bin/bash
+haldaeÙ

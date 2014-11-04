@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+ <servlet>
+ 	<servlet-name>validator</servlet-name>
+ 	<servlet-class>elab.Validat</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>validator</servlet-name>
+ 	<url-pattern>/validatore</url-pattern>
+ </servlet-mapping>
+ 
+ <filter>
+ 	<filter-name>logprotection</filter-name>
+ 	<filter-class>filtri.LogProt</filter-class>
+ </filter>
+ <filter-mapping>
+ 	<filter-name>logprotection</filter-name>
+ 	<url-pattern>/protected/*</url-pattern>
+ </filter-mapping>
+ <filter>
+ 	<filter-name>nocache</filter-name>
+ 	<filter-class>filtri.NoCache</filter-class>
+ </filter>
+ <filter-mapping>
+ 	<filter-name>nocache</filter-name>
+ 	<url-pattern>/*</url-pattern>
+ </filter-mapping>
+ 
+ <servlet>
+ 	<servlet-name>insert</servlet-name>
+ 	<servlet-class>elab.Inserter</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>insert</servlet-name>
+ 	<url-pattern>/inseritore</url-pattern>
+ </servlet-mapping>
+ 
+  <display-name>Ripetizione11</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" minHeight="227.0" prefHeight="340.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="playercontroller.ControllerView">
+  <children>
+    <AnchorPane id="panePiuFrontale" layoutX="2.0" minHeight="267.0" minWidth="72.0" prefHeight="278.0" prefWidth="72.0" styleClass="background1, ipad-dark-grey">
+      <children>
+        <Rectangle id="refreshRect" fx:id="broadcastingRectangle" arcHeight="5.0" arcWidth="5.0" fill="#33ff54" height="43.999908447265625" layoutX="10.0" layoutY="31.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+        <Rectangle id="refreshRect" fx:id="spostaRect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="24.999916076660156" layoutX="20.0" layoutY="4.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="31.0" />
+        <Rectangle id="refreshRect" fx:id="exitRect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="44.0000084472631" layoutX="8.0" layoutY="224.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+        <Rectangle id="refreshRect" fx:id="warningRect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="44.0000084472631" layoutX="9.0" layoutY="176.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+        <Rectangle id="refreshRect" fx:id="settingRect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="44.0000084472631" layoutX="9.0" layoutY="130.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+        <Rectangle fx:id="refreshRect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.999908447265625" layoutX="10.0" layoutY="81.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+        <ImageView id="9_av_replay.png" fx:id="refreshImg" fitHeight="45.0" fitWidth="45.0" layoutX="14.0" layoutY="79.0" mouseTransparent="true" preserveRatio="true">
+          <image>
+            <Image url="@../icone/refresh.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <ImageView id="9_av_full_screen.png" fx:id="broadcastingImg" fitHeight="44.0" fitWidth="44.0" layoutX="14.0" layoutY="31.0" mouseTransparent="true" preserveRatio="true">
+          <image>
+            <Image url="@../icone/broadcasting.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <ImageView id="11_alerts_and_states_warning.png" fx:id="warningImg" fitHeight="44.0" fitWidth="44.0" layoutX="13.0" layoutY="174.0" mouseTransparent="true" preserveRatio="true">
+          <image>
+            <Image url="@../icone/warning.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <ImageView id="11_alerts_and_states_warning.png" fx:id="settingImg" fitHeight="43.999900000002526" fitWidth="43.999900000002526" layoutX="13.0" layoutY="130.0" mouseTransparent="true" preserveRatio="true">
+          <image>
+            <Image url="@../icone/settings.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <Separator layoutX="3.0" layoutY="77.0" prefWidth="65.0" />
+        <Separator layoutX="3.0" layoutY="126.0" prefWidth="65.0" />
+        <Separator layoutX="3.0" layoutY="174.0" prefHeight="4.0" prefWidth="65.0" />
+        <Separator layoutX="3.0" layoutY="222.0" prefHeight="4.0" prefWidth="65.0" />
+        <ImageView id="5_content_remove.png" fx:id="exitImg" fitHeight="44.0" fitWidth="44.0" layoutX="13.0" layoutY="226.0" mouseTransparent="true" preserveRatio="true">
+          <image>
+            <Image url="@../icone/exit.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <ImageView id="11_alerts_and_states_warning.png" fx:id="spostaImg" fitHeight="24.999908447265625" fitWidth="24.999908447265625" layoutX="24.0" layoutY="4.0" mouseTransparent="true" preserveRatio="true">
+          <image>
+            <Image url="@../icone/sposta.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <Separator layoutX="14.0" layoutY="29.0" prefWidth="44.000099999997474" />
+      </children>
+      <stylesheets>
+        <URL value="@stile.css" />
+      </stylesheets>
+    </AnchorPane>
+    <AnchorPane fx:id="warningAnchorPane" layoutX="82.0" layoutY="178.0" minHeight="45.0" minWidth="204.0" prefHeight="45.0" prefWidth="267.0" styleClass="ipad-dark-grey">
+      <children>
+        <Rectangle fx:id="confirmWarningRect" arcHeight="22.0" arcWidth="18.0" fill="DODGERBLUE" height="34.999900000002526" layoutX="212.0" layoutY="5.0" opacity="0.42" stroke="BLACK" strokeType="INSIDE" width="41.0" />
+        <ImageView id="1_navigation_accept.png" fx:id="confirmWarningImg" fitHeight="35.0" fitWidth="41.000030517578125" layoutX="212.0" layoutY="5.0" mouseTransparent="true">
+          <image>
+            <Image url="@../icone/confirm.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <TextField id="textMEssageWarning" fx:id="textMessageWarning" layoutX="13.0" layoutY="11.0" opacity="0.69" prefWidth="189.0" />
+      </children>
+      <stylesheets>
+        <URL value="@stile.css" />
+      </stylesheets>
+    </AnchorPane>
+    <AnchorPane id="choicePlayerSetting" fx:id="settingAnchorPane" layoutX="82.0" layoutY="129.0" minHeight="45.0" minWidth="146.0" prefHeight="45.0" prefWidth="267.0" styleClass="ipad-dark-grey">
+      <children>
+        <Rectangle fx:id="confirmSettingRect" arcHeight="22.0" arcWidth="18.0" fill="DODGERBLUE" height="34.999900000002526" layoutX="213.0" layoutY="5.0" opacity="0.43" stroke="BLACK" strokeType="INSIDE" width="41.0" />
+        <TextField fx:id="textPortSetting" layoutX="134.0" layoutY="10.0" opacity="0.78" prefHeight="25.0" prefWidth="65.0" />
+        <ImageView id="1_navigation_accept.png" fx:id="confirmSettingImg" fitHeight="35.0" fitWidth="41.0" layoutX="213.0" layoutY="5.0" mouseTransparent="true">
+          <image>
+            <Image url="@../icone/confirm.png" preserveRatio="true" smooth="true" />
+          </image>
+        </ImageView>
+        <Label fx:id="infoIp" layoutX="18.0" layoutY="14.0" opacity="0.84" text="192.168.1.220" textFill="WHITE" />
+      </children>
+      <stylesheets>
+        <URL value="@stile.css" />
+      </stylesheets>
+    </AnchorPane>
+  </children>
+  <stylesheets>
+    <URL value="@stile.css" />
+  </stylesheets>
+</AnchorPane>

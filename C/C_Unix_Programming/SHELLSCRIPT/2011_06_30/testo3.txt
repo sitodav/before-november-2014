@@ -1,0 +1,8 @@
+northwest	NW	Charles Main		3.0	4.0	5.2
+western		WE	Sasha Gray		3.0	4.0	5.2
+SOUTHwest	SW	Lewis Dalsass		3.0	4.0	5.2
+eastern		EA	TB Savage		3.0	4.0	5.2
+SOUTHeast	SE	Patrica Hemenway	3.0	4.0	5.2
+northeast	NE	AM Main Jr.		3.0	4.0	5.2
+north		NO	Margot Weber		3.0	4.0	5.2
+central		CT	Ann Stephens		3.0	4.0	5.2

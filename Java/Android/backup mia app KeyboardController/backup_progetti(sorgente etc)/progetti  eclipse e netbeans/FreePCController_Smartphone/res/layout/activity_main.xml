@@ -1,0 +1,366 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/Rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:minHeight="240dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/barraTesto"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" >
+
+                <requestFocus />
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/hor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" >
+
+                <ImageButton
+                    android:id="@+id/scrivi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:contentDescription="esc"
+                    android:minHeight="45dp"
+                    android:minWidth="80dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/scrivi" />
+
+                <ImageButton
+                    android:id="@+id/urlbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:contentDescription="esc"
+                    android:minHeight="45dp"
+                    android:minWidth="80dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/urlbar" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/altf4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="alt-f4"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/close" />
+
+                    <ImageButton
+                        android:id="@+id/esc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="esc"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/esc" />
+
+                    <ImageButton
+                        android:id="@+id/backspace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="backspace"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/backspace" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/windowsexplorer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="windows explorer"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/windowsexplorer" />
+
+                    <ImageButton
+                        android:id="@+id/taskbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="taskbar"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/taskbar3" />
+
+                    <ImageButton
+                        android:id="@+id/windows"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="start menu"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/windows" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="tab"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/tab" />
+
+                    <ImageButton
+                        android:id="@+id/alttab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="change window"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/alttab" />
+
+                    <ImageButton
+                        android:id="@+id/minimizeall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="show desktop"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/minimizeall" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/aggiorna"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="refresh"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/aggiorna" />
+
+                    <ImageButton
+                        android:id="@+id/backward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="previous"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/back" />
+
+                    <ImageButton
+                        android:id="@+id/forward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="next"
+                        android:minHeight="45dp"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/forward" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/property"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:baselineAlignBottom="true"
+                        android:contentDescription="play"
+                        android:cropToPadding="true"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/property" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="        " />
+
+                    <ImageButton
+                        android:id="@+id/fullscreen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/btn_default"
+                        android:contentDescription="full screen"
+                        android:minWidth="80dp"
+                        android:onClick="cliccato"
+                        android:src="@drawable/fullscreen" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TableRow>
+            </TableLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:layout_weight="2.69" >
+
+                <ImageButton
+                    android:id="@+id/enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="false"
+                    android:background="@android:drawable/btn_default"
+                    android:minHeight="60dp"
+                    android:minWidth="60dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/enter" />
+
+                <ImageButton
+                    android:id="@+id/down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/enter"
+                    android:layout_below="@+id/enter"
+                    android:adjustViewBounds="false"
+                    android:background="@android:drawable/btn_default"
+                    android:minHeight="60dp"
+                    android:minWidth="60dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/down" />
+
+                <ImageButton
+                    android:id="@+id/left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/down"
+                    android:layout_toLeftOf="@+id/enter"
+                    android:adjustViewBounds="false"
+                    android:background="@android:drawable/btn_default"
+                    android:minHeight="60dp"
+                    android:minWidth="60dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/left" />
+
+                <ImageButton
+                    android:id="@+id/right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/enter"
+                    android:layout_toRightOf="@+id/enter"
+                    android:adjustViewBounds="false"
+                    android:background="@android:drawable/btn_default"
+                    android:minHeight="60dp"
+                    android:minWidth="60dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/right" />
+
+                <ImageButton
+                    android:id="@+id/up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/enter"
+                    android:layout_toLeftOf="@+id/right"
+                    android:adjustViewBounds="false"
+                    android:background="@android:drawable/btn_default"
+                    android:minHeight="60dp"
+                    android:minWidth="60dp"
+                    android:onClick="cliccato"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/up" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

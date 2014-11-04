@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1334259561 source:/home/molo/progettiC/PROGETTISO/esercizio1/main.c
+	<fcntl.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+

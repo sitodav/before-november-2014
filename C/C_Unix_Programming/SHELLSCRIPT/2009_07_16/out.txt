@@ -1,0 +1,5 @@
+Antonio Bianchi 25 Napoli Impiegato
+Luigi Rossi 30 Milano Imprenditore
+Giuseppe Celeste 37 Sondrio Nulla
+Armando Giallo 19 Lucca Impiegato
+Pasquale Verde 39 Napoli Nulla

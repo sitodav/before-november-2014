@@ -1,0 +1,6 @@
+“Tis book is for programmers with some C or C++ experience who want
+to take advantage
+Of the Linux development environment.
+You should have enough Linux familiarity to have installed
+And configured users on Linux.”
+

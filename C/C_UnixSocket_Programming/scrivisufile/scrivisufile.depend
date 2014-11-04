@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1326451647 source:/home/molo/progettiC/scrivisufile/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+

@@ -1,0 +1,1 @@
+il mio stdout ha fd valore: 1
