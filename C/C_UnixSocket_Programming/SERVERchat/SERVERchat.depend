@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1324282867 source:/home/molo/progettiC/SERVERchat/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/select.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+

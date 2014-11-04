@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1321802885 source:/home/molo/progettiC/DNSquery1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+

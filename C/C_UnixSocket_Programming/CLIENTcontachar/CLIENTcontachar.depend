@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1322568190 source:/home/molo/progettiC/CLIENTcontachar/main.c
+	<stdio.h>
+	<stdlib.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+	<time.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<errno.h>
+	<string.h>
+

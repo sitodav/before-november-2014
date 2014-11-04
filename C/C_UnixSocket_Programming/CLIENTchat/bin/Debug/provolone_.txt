@@ -1,0 +1,18 @@
+
+
+11:21:0   112/0/4
+
+********INIZIO SESSIONE********
+
+provolone     7we ci sei ?
+
+************** IL CLIENT rotolo         SI E' CONNESSO ALLA STANZA DI CHAT
+rotolo        7ciao	
+
+provolone     7oi ci sei?
+
+provolone     7oi che fai ?
+
+rotolo        7vediamo
+
+************** IL CLIENT rotolo         SI E' DISCONNESSO DALLA SESSIONE DI CHAT!

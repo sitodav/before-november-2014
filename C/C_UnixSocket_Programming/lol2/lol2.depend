@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1320879302 source:/home/molo/progettiC/lol2/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+

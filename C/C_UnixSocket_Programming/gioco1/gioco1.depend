@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1329774770 source:/home/molo/progettiC/gioco1/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/select.h>
+	<time.h>
+	<termios.h>
+

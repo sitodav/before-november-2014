@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1321048170 source:/home/molo/progettiC/CLIENTdaytime/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+

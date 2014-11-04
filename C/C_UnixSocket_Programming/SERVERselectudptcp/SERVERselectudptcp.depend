@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1325249721 source:/home/molo/progettiC/SERVERselectudptcp/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/socket.h>
+	<sys/select.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<time.h>
+

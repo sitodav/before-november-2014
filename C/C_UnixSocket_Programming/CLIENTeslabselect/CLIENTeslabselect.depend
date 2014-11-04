@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1324856306 source:/home/molo/progettiC/CLIENTeslabselect/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/select.h>
+	<errno.h>
+

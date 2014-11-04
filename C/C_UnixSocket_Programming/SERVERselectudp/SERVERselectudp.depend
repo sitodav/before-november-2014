@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1325064371 source:/home/molo/progettiC/SERVERselectudp/main.c
+	<stdio.h>
+	<stdlib.h>
+

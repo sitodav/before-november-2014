@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1322307422 source:/home/molo/progettiC/ECHOclient1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<string.h>
+

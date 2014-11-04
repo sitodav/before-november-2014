@@ -1,0 +1,22 @@
+
+
+53:32:10   111/11/19
+
+********INIZIO SESSIONE********
+
+patata        7ciao
+
+************** IL CLIENT rivaldo        SI E' CONNESSO ALLA STANZA DI CHAT
+rivaldo       7ciao
+
+patata        7come va ?
+
+patata        7tutt apoost ?
+
+************** IL CLIENT rivaldo        SI E' DISCONNESSO DALLA SESSIONE DI CHAT!
+
+56:33:10   111/11/19
+
+********INIZIO SESSIONE********
+
+patata        7rieccomi

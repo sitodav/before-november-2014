@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1321917750 source:/home/molo/progettiC/SERVERdnsquery1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<netdb.h>
+

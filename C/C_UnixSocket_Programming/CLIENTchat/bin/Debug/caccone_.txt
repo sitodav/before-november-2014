@@ -1,0 +1,26 @@
+
+
+34:25:16   112/1/16
+
+********INIZIO SESSIONE********
+
+caccone       9ciao
+
+caccone       9come stai ?
+
+************** IL CLIENT rivaldo        SI E' CONNESSO ALLA STANZA DI CHAT
+rivaldo       9we
+
+rivaldo       9che fai ?
+
+caccone       9niente stavo cazzeggiando
+
+rivaldo       9che facciamo stasera ?
+
+caccone       9non lo so, tu che vuoi fare ?
+
+caccone       9oooo ci sei ?
+
+rivaldo       9io esco
+
+************** IL CLIENT rivaldo        SI E' DISCONNESSO DALLA SESSIONE DI CHAT!

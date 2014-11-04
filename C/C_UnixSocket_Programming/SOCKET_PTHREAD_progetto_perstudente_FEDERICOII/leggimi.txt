@@ -1,0 +1,19 @@
+gcc nome.c -o nomeeseguibile -l pthread --> per compilare i 2 codici...
+
+ESECUZIONE SERVER: 
+sudo ./nomeeseguibile ip porta
+NB: se come ip scrivi 0, ho implementato che fa si che bindi su INADDR_ANY
+ricorda di farlo come super admin con sudo altrimenti non puoi bindare il socket
+quindi ad es sudo ./main 0 1000 
+Fai anche attenzione che ogni tanto puo' succedere che se lanci il server, poi termini il processo, e riprovi a rilanciarlo sulla stessa porta, ti da errore. Non e' un problema del programma, e' un comportamento tipico. Basta cambiare porta, o aspettare un po' e riprovare con la stessa.
+
+ESECUZIONE CLIENT:
+lo lanci con ./nomeeseguibile ip porta
+Ovviamente se lo testi in lan scegli come ip il loopback, quindi 127.0.0.1 
+
+Quando inserisci le coordinate della segnalazione della buca, ti chiede riferimento e coordinata x e y rispetto al riferimento. Ho implementato come char le coordinate invece che come numeri, in modo tale che se apri il file delle segnalazioni viene stampato l'esatto char che rappresenta il numero indicato da tastiera dal client. Ovviamente per fare i paragoni (relativi al fatto che una segnalazione viene o meno accettata in base al fatto che sia o no nei 10 metri sia per x che per y rispetto ad un altro tot di segnalazioni con lo stesso riferimento) devono essere convertite in numeri. Per fare questo quindi occorre indicare le coordinate x e y con un minimo di 000 e un max di 999. Quindi anche se vuoi scrivere 2, scrivi 002, il server riceve la stringa di 3 char 002 e calcola le centinaia,decine e unita', e somma il tutto. Per il resto non ho fatto prove con nomi o riferimenti troppo lunghi, ad esempio di 100 char, ma con nomi normali va tutto bene.
+Per il resto e' tutta roba di programmazione 2, e SO lab/reti, quindi se c'e' qualcosa che non ti torna chiedi pure, fermo restando che mi auguro tu conosca sta roba, altrimenti dovrai buttare un bel po' di sangue sulla MAN page e sul libro per commentare il codice all'esame.
+
+
+NB: il server si crea da solo i file: logfile.txt lo crea per salvarsi i log, e buchefile.txt per salvarci le segnalazioni. Se glieli cancelli, lui se li ricrea, altrimenti scrive in append a quelli gia' esistenti.
+

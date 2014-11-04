@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1327791230 source:/home/molo/progettiC/SERVERbattaglianavale/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<string.h>
+	<sys/select.h>
+

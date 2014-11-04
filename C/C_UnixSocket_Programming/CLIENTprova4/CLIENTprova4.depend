@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1321970513 source:/home/molo/progettiC/CLIENTprova4/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/types.h>
+

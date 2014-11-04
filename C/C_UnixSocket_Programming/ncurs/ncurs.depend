@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1329176743 source:/home/molo/progettiC/ncurs/main.c
+	<ncurses.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1321010321 source:/home/molo/progettiC/esclientsocket/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+

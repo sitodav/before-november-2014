@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1323122998 source:/home/molo/progettiC/SERVERselectecho/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/select.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+

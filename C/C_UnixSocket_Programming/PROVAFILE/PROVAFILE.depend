@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1323945875 source:/home/molo/progettiC/PROVAFILE/main.c
+	<stdio.h>
+	<stdlib.h>
+

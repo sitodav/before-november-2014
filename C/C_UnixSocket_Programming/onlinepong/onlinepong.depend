@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1329915998 source:/home/molo/progettiC/onlinepong/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/select.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<errno.h>
+	<time.h>
+	<string.h>
+	<netdb.h>
+	<termios.h>
+
