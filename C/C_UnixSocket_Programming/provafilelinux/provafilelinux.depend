@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1323564692 source:/home/molo/progettiC/provafilelinux/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1329835766 source:/home/molo/progettiC/pong/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<sys/select.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+	<termios.h>
+

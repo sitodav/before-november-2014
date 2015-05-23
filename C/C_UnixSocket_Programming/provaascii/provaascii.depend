@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1329353940 source:/home/molo/progettiC/provaascii/main.c
+	<stdio.h>
+	<stdlib.h>
+

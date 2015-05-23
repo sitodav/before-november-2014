@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1329266062 source:/home/molo/progettiC/provaselect/main.c
+	<stdio.h>
+	<stdlib.h>
+	<termios.h>
+	<sys/select.h>
+	<unistd.h>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1321483135 source:/home/molo/progettiC/provaprova/main.c
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<string.h>
+
